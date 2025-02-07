@@ -1,0 +1,36 @@
+
+.navbar{
+    position: fixed;
+    display: flex;
+    background-color: transparent;
+    color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.nav-links{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-links li{
+    display: inline;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+
