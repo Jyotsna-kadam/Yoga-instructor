@@ -11,6 +11,9 @@
     top: 0;
     left: 0;
 }
+.bg-color-nav{
+    background-color: rgb(38, 38, 38) !important;
+}
 
 .logo{
     font-size: 30px;

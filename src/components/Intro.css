@@ -1,0 +1,26 @@
+.Intro-container{
+    background-image: url("https://websitedemos.net/yoga-04/wp-content/uploads/sites/250/2020/02/home-banner-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.text-intro{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text-intro h2{
+    font-size: 35px;
+    line-height: 1.4em;
+}
+
+.text-intro p{
+    font-size: 4rem;
+}
+
+.intro-para{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(63, 58, 58);
+}
