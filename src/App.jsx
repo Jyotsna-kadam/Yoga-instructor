@@ -8,6 +8,8 @@ import Classes from "./components/Classes";
 import PrivateClass from "./components/PrivateClass";
 import Reviews from "./components/Reviews";
 import Contacts from "./components/Contacts";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 

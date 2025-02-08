@@ -3,20 +3,21 @@
     position: fixed;
     display: flex;
     background-color: transparent;
-    color: yellow;
+    color: #454F5E;
     justify-content: space-between;
     align-items: center;
     z-index: 1000; 
     width: 100%;
     top: 0;
     left: 0;
+    /* background-color: grey; */
 }
 .bg-color-nav{
     background-color: rgb(38, 38, 38) !important;
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 30px;
 }
 
