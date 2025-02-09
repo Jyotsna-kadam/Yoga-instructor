@@ -5,6 +5,7 @@ const Experties = () => {
     <div>
       <h2>Welcome to My Website</h2>
       <p>This is the Expertiespage.</p>
+      
     </div>
   );
 };

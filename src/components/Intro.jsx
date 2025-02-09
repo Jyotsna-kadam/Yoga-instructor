@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import "./Intro.css";
-import { Button, Card, CardBody, Form } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 const Intro = () => {
-
-  const [open, setOpen] = useState(false);
-  const [submit, setSubmit] = useState(false);
-  // const [close, setClose] = useState(false);
 
 
   return (
@@ -21,38 +18,11 @@ const Intro = () => {
       </div>
 
       <div className="Intro-btn">
-        <Button onClick={() => setOpen(true)} className="Begin-btn">BEGIN NOW</Button>
-        {open && (
-          <Card className="card">
-            <CardBody className="card-h1">
-              <h3>Contact US</h3>
-              <Button onClick={() => setOpen(false)}>Close</Button>
-              <Form className="card-form">
-                <Form.Group className="mb-3">
-                  <Form.Label>Name</Form.Label>
-                  <Form.Control type="text" placeholder="Enter your name" />
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Form.Label>Phone No</Form.Label>
-                  <Form.Control type="text" placeholder="Enter your phone number" />
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" placeholder="Enter your email" />
-                </Form.Group>
-
-                <Form.Group className="mb-3">
-                  <Form.Label>Message</Form.Label>
-                  <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
-                </Form.Group>
-
-                <Button onClick={() => setSubmit(true)}>Submit</Button>
-              </Form>
-            </CardBody>
-          </Card>
-        )}
+        {/* <Button onClick={() => setOpen(true)} className="Begin-btn">BEGIN NOW</Button> */}
+        <Link to="Contacts" smooth={true} duration={400}>BEGIN NOW</Link>
+        {/* {open && (
+          
+        )} */}
       </div>
       
     </div>

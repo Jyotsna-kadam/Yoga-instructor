@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className={navBackground ? "navbar bg-color-nav":"navbar"}>
-      <h1 className="logo">Yoga Studio</h1>
+      <h1 className="logo">YOGA STUDIO</h1>
       <ul className="nav-links">
         <li>
           <Link to="Intro" smooth={true} duration={500}>Intro</Link>

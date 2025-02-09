@@ -25,8 +25,10 @@ function App() {
       </Element>
 
       <Element name="Experties">
-        <Experties></Experties>
+        <Experties> </Experties>
+
       </Element>
+
 
       <Element name="Awards">
         <Awards></Awards>
@@ -47,7 +49,9 @@ function App() {
       <Element name="Contacts">
         <Contacts></Contacts>
       </Element>
+
     </div>
+  
 
   )
 }
