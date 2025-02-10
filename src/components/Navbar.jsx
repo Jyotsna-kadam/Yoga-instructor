@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import { LuSquareMenu } from "react-icons/lu";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [navBackground, setNavBackground] = useState(false);
+  const[open, setOpen] = useState(false);
+
+  const buttonClick = () => {
+    setOpen(!open);
+  };
 
   // Function to change navbar background on scroll
   const handleScroll = () => {
@@ -23,7 +29,9 @@ const Navbar = () => {
   return (
     <nav className={navBackground ? "navbar bg-color-nav":"navbar"}>
       <h1 className="logo">YOGA STUDIO</h1>
-      <ul className="nav-links">
+      <ul className={open ? "nav-link.active" : "nav-links"}>
+
+      {/* <ul className="nav-links"> */}
         <li>
           <Link to="Intro" smooth={true} duration={500}>Intro</Link>
         </li>
@@ -41,7 +49,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link to="Privete Classes" smooth={true} duration={500}>Privete Classes</Link>
+          <Link to="Privete Classes" smooth={true} duration={500}>Private Classes</Link>
         </li>
 
         <li>
@@ -53,6 +61,11 @@ const Navbar = () => {
         </li>
 
       </ul>
+
+      <div className="icon" onClick={buttonClick}>
+      <LuSquareMenu />
+      </div>
+
     </nav>
   );
 };

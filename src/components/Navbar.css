@@ -3,13 +3,14 @@
     position: fixed;
     display: flex;
     background-color: transparent;
-    color: #454F5E;
+    color: #1f273a;
     justify-content: space-between;
     align-items: center;
     z-index: 1000; 
     width: 100%;
     top: 0;
     left: 0;
+    
     /* background-color: grey; */
 }
 .bg-color-nav{
@@ -35,6 +36,40 @@
 .nav-links a{
     color: white;
     text-decoration: none;
+}
+
+.icon{
+    color: #1f273a;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:768px){
+
+    .icon{
+        display: block;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        background-color: #1f273a;
+        color: white;
+        width: 250px;
+        height: 60vh;
+        top: 90px;
+        right: 0;
+        z-index: 10;
+        font-size: 18px;
+        transition: all 0.7s
+    }
+
+    nav-link.active{
+        top: 10%;
+        transition: all 0.7s ease-in;
+    }
 }
 
 
