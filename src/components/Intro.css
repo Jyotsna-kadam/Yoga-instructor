@@ -22,7 +22,7 @@
 
 .text-intro {
     font-family: 'Quicksand', sans-serif;
-    padding-top: 100px;
+    padding-top: 70px;
     color: #0b5e4f;
     margin-left: 30px;
     position: relative; /* Added to keep stacking order */
@@ -56,9 +56,26 @@
     margin-left: 30px;
 }
 
-.Intro-btn{
-   position: relative;
+.btn{
+    position: relative;
+    margin-left: 40px;
 }
+
+.Intro-btn{
+    width: 200px; 
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; 
+  padding: 10px; 
+  background-color:#1f273a; 
+  color: white; 
+  border-radius: 8px; 
+  text-align: center;
+  text-decoration: none;
+}
+
 
 .Begin-btn {
     background-color: #0b5e4f !important;

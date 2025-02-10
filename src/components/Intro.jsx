@@ -14,12 +14,12 @@ const Intro = () => {
       </div>
 
       <div className="intro-para">
-        <p>Yoga is not just an exercise; it’s a way of life. It connects your body, mind, and soul, bringing inner peace and balance.<br /> Whether you’re a beginner or an expert, practicing yoga daily can help you:</p>
+        <p>Yoga is not just an exercise, it’s a way of life. It connects your body, mind, and soul, bringing inner peace and balance.<br /> Whether you’re a beginner or an expert, practicing yoga daily can help you:</p>
       </div>
 
-      <div className="Intro-btn">
+      <div className="btn">
         {/* <Button onClick={() => setOpen(true)} className="Begin-btn">BEGIN NOW</Button> */}
-        <Link to="Contacts" smooth={true} duration={400}>BEGIN NOW</Link>
+        <Link to="Contacts" smooth={true} duration={400} className="Intro-btn">BEGIN NOW</Link>
         {/* {open && (
           
         )} */}
