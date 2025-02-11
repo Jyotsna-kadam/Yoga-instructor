@@ -10,6 +10,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    cursor: pointer;
     
     /* background-color: grey; */
 }
@@ -33,9 +34,15 @@
     display: inline;
 }
 
+.nav-links a:hover{
+    background-color: white;
+    color: #1f273a;
+}
+
 .nav-links a{
     color: white;
     text-decoration: none;
+
 }
 
 .icon{
@@ -64,6 +71,11 @@
         z-index: 10;
         font-size: 18px;
         transition: all 0.7s
+    }
+
+    .nav-links:hover{
+        background-color: white;
+        color: #1f273a;
     }
 
     nav-link.active{

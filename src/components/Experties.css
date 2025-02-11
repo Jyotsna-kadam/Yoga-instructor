@@ -1,0 +1,47 @@
+.experties-container {
+    position: relative;
+    background-image: url("https://websitedemos.net/yoga-04/wp-content/uploads/sites/250/2020/02/home-img-02.png");
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.head {
+    padding-top: 20%;
+    color: white !important;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+
+.shadow-lg {
+    margin-left: 50%;
+    width: 60%;
+    transition: all 0.3s ease-in-out;
+    margin-top: -50%;
+    /* Moves the cards upwards */
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60%;
+    margin-right: 50%;
+
+
+}
+
+.shadow-lg:hover {
+    transform: translateY(-10px); /* Adds a floating effect */
+  }
+  
