@@ -17,7 +17,7 @@ const yogaTypes = [
 const Experties = () => {
 
   return (
-    <div className="experties-container">
+    <div className="experties-container" data-aos="fade-right" >
       <h1 className="head">Know <br/> My Experties</h1>
       
       <div className="container">
