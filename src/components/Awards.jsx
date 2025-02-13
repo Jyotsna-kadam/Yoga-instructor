@@ -3,8 +3,9 @@ import React from "react";
 const Awards = () => {
   return (
     <div>
-      <h2>Welcome to My Website</h2>
-      <p>This is the Awardspage.</p>
+      <h1>Awarded #1 By</h1>
+      <p>Luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      
     </div>
   );
 };
