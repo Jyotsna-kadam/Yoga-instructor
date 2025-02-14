@@ -1,11 +1,17 @@
 import React from "react";
+import "./PrivateClass.css";
 
 const PrivateClass = () => {
   return (
-    <div>
-      <h2>Welcome to My Website</h2>
-      <p>This is the PrivateClasspage.</p>
-    </div>
+    
+      <div className="Private-cls">
+      <h1 className="private-head">At Your Comfort <br/>
+      Private Classes</h1>
+      <p className="private-para">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.​</p>
+      </div>
+      
+   
   );
 };
 

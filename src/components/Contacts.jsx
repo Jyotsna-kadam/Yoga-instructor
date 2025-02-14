@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card, CardBody, Form } from "react-bootstrap";
+import "./Contacts.css"
 
 const Contacts = () => {
 
@@ -10,10 +11,9 @@ const Contacts = () => {
 
 
   return (
-    <div>
-      <h2>Contact US</h2>
-      <p>contact@example.com <br/>  
-      987.654.2310</p>
+    <div className="contact-container">
+      <h2 className="head">Contact US</h2>
+      <p className="para">contact@example.com <br/> 9082845988</p>
       <div>
       <Card className="card">
             <CardBody className="card-h1">

@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import { Element } from "react-scroll";
 import Intro from "./components/Intro";
 import Experties from "./components/Experties";
-import Awards from "./components/Awards";
+// import Awards from "./components/Awards";
 import Classes from "./components/Classes";
 import PrivateClass from "./components/PrivateClass";
 import Reviews from "./components/Reviews";
@@ -44,9 +44,9 @@ function App() {
       </Element>
 
 
-      <Element name="Awards">
+      {/* <Element name="Awards">
         <Awards></Awards>
-      </Element>
+      </Element> */}
 
       <Element name="Classes">
         <Classes></Classes>

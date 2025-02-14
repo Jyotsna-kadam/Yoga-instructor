@@ -40,16 +40,16 @@ const Navbar = () => {
           <Link to="Experties" smooth={true} duration={500}>Experties</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link to="Awards" smooth={true} duration={500}>Awards</Link>
-        </li>
+        </li> */}
 
         <li>
           <Link to="Classes" smooth={true} duration={500}>Classes</Link>
         </li>
 
         <li>
-          <Link to="Privete Classes" smooth={true} duration={500}>Private Classes</Link>
+          <Link to="PrivateClass" smooth={true} duration={500}>Private Classes</Link>
         </li>
 
         <li>
