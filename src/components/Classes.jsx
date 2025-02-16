@@ -1,9 +1,10 @@
 import React from "react";
+import "./Classes.css";
 
 const Classes = () => {
   return (
-    <div>
-      <h2>Welcome to My Website</h2>
+    <div className="class-container">
+      <h2>Classes</h2>
       <p>This is the Classespage.</p>
     </div>
   );
