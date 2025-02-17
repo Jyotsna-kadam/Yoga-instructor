@@ -14,8 +14,8 @@ const Contacts = () => {
     <div className="contact-container">
       <h2 className="head">Contact US</h2>
       <p className="para">contact@example.com <br/> 9082845988</p>
-      <div>
-      <Card className="card">
+      <div className="card">
+      <Card>
             <CardBody className="card-h1">
               <h3>Contact US</h3>
               {/* <Button onClick={() => setOpen(false)}>Close</Button> */}

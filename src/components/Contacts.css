@@ -21,6 +21,7 @@
 
 .head{
     color: black !important;
+    font-weight: bold;
 
 }
 
@@ -28,6 +29,18 @@
     color: black !important;
     margin-left: 35%;
     font-size: 2rem;
+    font-weight: bold;
 }
 
+.card{
+    background-color: rgb(49, 85, 85);
+}
+
+.card-form{
+    background-color: rgb(49, 85, 85);
+}
+
+.card-h1{
+    background-color: rgb(40, 143, 143);
+}
 
