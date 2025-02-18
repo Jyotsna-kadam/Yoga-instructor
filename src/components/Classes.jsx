@@ -4,8 +4,12 @@ import "./Classes.css";
 const Classes = () => {
   return (
     <div className="class-container">
-      <h2>Classes</h2>
-      <p>This is the Classespage.</p>
+      <div>
+      <h2 className="head">Classes</h2>
+      <p className="para">This is the Classespage.</p>
+      </div>
+      
+      
     </div>
   );
 };

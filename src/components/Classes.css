@@ -1,14 +1,12 @@
 .class-container{
     position: relative; 
-    
-    background-position: center;
-    background-size: cover;
-    
-    min-height: 100vh;
-    
+    background-image: url("https://websitedemos.net/yoga-04/wp-content/uploads/sites/250/2020/02/home-img-04.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 63%;
 }
 
-.class-container::before {
+/* .class-container::before {
     content: ""; 
     position: absolute;
     top: 0;
@@ -17,4 +15,9 @@
     height: 100%;
     background-color: rgba(61, 113, 104, 0.5);
     opacity: 0.8;
+} */
+
+.head{
+    margin-left: 50%;
+    color: white !important;
 }
