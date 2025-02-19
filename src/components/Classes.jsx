@@ -6,7 +6,7 @@ const Classes = () => {
     <div className="class-container">
       <div>
       <h2 className="head">Classes</h2>
-      <p className="para">This is the Classespage.</p>
+      <p className="para">There are types of Yoga ancient yoga and Modern yoga. </p>
       </div>
       
       
