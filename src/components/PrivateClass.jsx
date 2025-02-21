@@ -8,7 +8,7 @@ const PrivateClass = () => {
       <h1 className="private-head">At Your Comfort <br/>
       Private Classes</h1>
       <p className="private-para">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.​</p>
+      We also take private classes for VIP's as per there comfort </p>
       </div>
       
    

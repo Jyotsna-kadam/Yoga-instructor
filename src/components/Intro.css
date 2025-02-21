@@ -81,7 +81,7 @@
     background-color: #0b5e4f !important;
     color: black !important;
     margin-left: 40px;
-    position: relative; /* Keep it in the stacking context */
+    position: relative;
     z-index: 2; /* Ensure it is above the overlay */
 }
 
