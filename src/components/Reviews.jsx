@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
     <div className="review-container">
       <h2>Testimonial</h2>
-      <p>Reviews from my clients</p>
+      <p>Reviews </p>
     </div>
   );
 };
